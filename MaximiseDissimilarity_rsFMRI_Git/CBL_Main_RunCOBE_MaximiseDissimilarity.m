@@ -75,7 +75,7 @@ save (fullfile(Output_dir,[Output_Name1 '.mat']),'CM_run_4runs','Component_remv'
 %% For Component 1 
 Component_1 = [];
 for i= 1 : Number_of_Subjects
-    for j= 1 %% Component you want
+    for j= 1 %% Component that we used for dissimilarity
         P= CM_run_4runs{1,i}(:,j);
         Component_1= [Component_1,P];
     end
