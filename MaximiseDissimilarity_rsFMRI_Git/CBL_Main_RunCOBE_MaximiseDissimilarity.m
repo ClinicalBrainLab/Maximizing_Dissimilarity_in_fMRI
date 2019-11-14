@@ -49,7 +49,6 @@ end
  % Run COBE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% WHen u want to have COBE Correlation matrices as well
 Component_remv= 1;% You can specify the number of common components you want to extract
 Number_of_Subjects = 788; % We used 
 Number_Of_Sessions = 4; % We used 4 runs of rs-fMRI data from Human Connectome Project
