@@ -1,6 +1,6 @@
 %CBL_Main_RunCOBE_MaximiseDissimilarity
 %
-%   Purpose: (1)The code will allo you to input your multi-session fMRI
+%   Purpose: (1)The code will allow you to input your multi-session fMRI
 %               data [No.of spatial areas X Time series ] and run COBE to obtain the COBE common Component per subject
 %            (2) Common COBE component is the  component that is present in
 %                all the session or in short it is shared by all the rs-fMRI sessions
@@ -14,7 +14,7 @@
 %             pipeline and Schaefer's atlas parcellation - please refer https://github.com/ThomasYeoLab/CBIG)
 %       (2) Download Common and orthogonal Basis Extraction and add to matlab path- Please refer to paper (and cite as well)
 %             Zhou, G., Cichocki, A., Zhang, Y., & Mandic, D. P. (2016a). Group Component Analysis for Multiblock Data: Common and Individual Feature 
-%             Extraction. IEEE Transactions on Neural Networks and Learning Systems, 27(11), 2426–2439. https://doi.org/10.1109/TNNLS.2015.2487364 
+%             Extraction. IEEE Transactions on Neural Networks and Learning Systems, 27(11), 2426â€“2439. https://doi.org/10.1109/TNNLS.2015.2487364 
 %
 %   Ouputs:
 %       MCD and CS group - "Maximally dissimilar groups" and "COBE similar" groups 
