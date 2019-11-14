@@ -1,5 +1,5 @@
 # Maximizing_Dissimilarity_in_fMRI
-Please Refer to our paper below for details.
+Please Refer to our paper for details.
 Kashyap et al, (2019)- Maximizing Dissimilarity in Resting State detects Heterogeneous Subtypes in Healthy population associated with High Substance-Use and Problems in Antisocial Personality. Human Brain Mapping
 
 In this work- We developed an strategy to classify subjects whose resting state pattern is most dissimilar in a large dataset of healthy individuals
