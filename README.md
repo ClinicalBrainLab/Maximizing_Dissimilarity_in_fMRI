@@ -24,5 +24,16 @@ However, factors like substance use, psychological deficits are often ignored. V
 person or the factors that can influence the resting state scans.
 We show the impact these factors have in shaping the resting state pattern of healthy indivuals (as well). When the scans of these
 healthy individuals are considered in the groug for comparison with patients, they can lead to erroneous conclusion.
+
+## How to use the code
+(1) To use the code you need to Preprocess and atlas parcellate the resting state fMRI data at your end
+    In our case we used Thomas Yeo's CBIG pipeline and Schaeffers 400 parcellation available at https://github.com/ThomasYeoLab/CBIG
+(2) Please download COBE and add to your matlab path. refer to paper 
+      Zhou, G., Cichocki, A., Zhang, Y. and Mandic, D.P., 2015. Group component analysis for multiblock data: Common and individual           feature extraction. IEEE transactions on neural networks and learning systems, 27(11), pp.2426-2439.
+      or the link
+      http://www.bsp.brain.riken.jp/~zhougx/cifa.html
+(3) If you have problems downloading COBE (as reported by few), please let us know over emails at
+    rajankashyap6@gmail.com or clinicalbrainlab@gmail.com
+
      
 
