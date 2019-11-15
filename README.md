@@ -6,17 +6,17 @@ In this work- We developed a strategy to classify subjects whose resting state p
 For this- We use multisession (or multirun) resting state fMRI data of 788 subjects from the Human Connectome Project
 
 ## Algorithm Development strategy
-(1) We use Common and orthogonal Basis Extraction (Technique) to extract the common COBE component of every Subject
-(2) COBE is an Tensor decomposition Technique that runs on multi-session data and gives an output matrix that is shared by all the sessions
-(3) The common COBE Component of a subject can be cosidered as the signature of an indivdual's resting state (since it is present in all sessions)
-(4) We correlate the Common COBE component of all the subjects to obtain the COBE Correlation Matrix
-(5) We then classify those subjects whose correlation with all other subjects is lowest across the group. We name this group as MCD (Maximal COBE Dissimilarity)
-(6) Subsequently remaining Subjects form the COBE Similarity (CS) Group
+(1) We use Common and orthogonal Basis Extraction (COBE technique) to extract the common COBE component of every Subject    
+(2) COBE is an Tensor decomposition Technique that runs on multi-session data and gives an output matrix that is shared by all the sessions 
+(3) The common COBE Component of a subject can be cosidered as the signature of an indivdual's resting state (since it is present in all sessions)  
+(4) We correlate the Common COBE component of all the subjects to obtain the COBE Correlation Matrix    
+(5) We then classify those subjects whose correlation with all other subjects is lowest across the group. We name this group as MCD (Maximal COBE Dissimilarity)    
+(6) Subsequently remaining Subjects form the COBE Similarity (CS) Group 
 
 ## Results
-(1) The two groups were different in their "strength of activation" (determined by Common COBE component weights) in Default Mode Network- particularly in Posterior Cingulate gyrus
-(2) We then compare the scores of 68 Behavioural Measures between the two groups (MCD and CS)
-    We found MCD group to consume higher amount of (i) Marijuana, (ii) Illicit drugs (Cocaine, hallucinogen, etc), (iii) Alcohol, (iv)Tobacco; and (v) to show higher traits of antisocial personality disorder
+(1) The two groups were different in their "strength of activation" (determined by Common COBE component weights) in Default Mode Network- particularly in Posterior Cingulate gyrus    
+(2) We then compare the scores of 68 Behavioural Measures between the two groups (MCD and CS)   
+    We found MCD group to consume higher amount of (i) Marijuana, (ii) Illicit drugs (Cocaine, hallucinogen, etc), (iii) Alcohol,    (iv)Tobacco; and (v) to show higher traits of antisocial personality disorder  
     
 ## Impact
 Neuroimaging based Comparison studies that recruit healthy subjects pays due weightage to factors like AGE, SEX, BMI of an individual.
