@@ -11,7 +11,7 @@ for ini = 1:size(corr_mat,1)
     for iter = 1:5000
         %node = ini;
         rng(iter);
-        node = randperm(804,1);
+        node = randperm(788,1);
         weak_connection = weak_corr_entry(node,:);
         %exclude_set = find(weak_connection == 0);
         explore_set = find(sum(~weak_connection,1) == 0);
