@@ -1,3 +1,7 @@
+
+% The function was adopted from the work of Kong et al, 2018.
+% Spatial topography of individual-specific cortical networks predicts human cognition,personality, and emotion. Cerebral Cortex
+
 function [subset, corr_coe, corr_coe_max] = CBL_find_subset_low_corr_behaviors(corr_mat)
 threshold = 0.65;
 
